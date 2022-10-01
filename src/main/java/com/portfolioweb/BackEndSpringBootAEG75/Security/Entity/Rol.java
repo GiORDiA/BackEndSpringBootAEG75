@@ -31,7 +31,7 @@ public class Rol {
         this.rolNombre = rolNombre;
     }
     
-    //Getters and Setters
+    //Getters & Setters
 
     public int getId() {
         return id;
