@@ -14,6 +14,8 @@ public class DtoEducacion {
     @NotBlank
     private String descripcionE;
     private String logoE;
+    private String logobE;
+    private String logocE;
     private String periodoAniosE;
     
     //Constructores
@@ -21,10 +23,12 @@ public class DtoEducacion {
     public DtoEducacion() {
     }
 
-    public DtoEducacion(String nombreE, String descripcionE, String logoE, String periodoAniosE) {
+    public DtoEducacion(String nombreE, String descripcionE, String logoE, String logobE, String logocE, String periodoAniosE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.logoE = logoE;
+        this.logobE = logobE;
+        this.logocE = logocE;
         this.periodoAniosE = periodoAniosE;
     }
     
@@ -54,6 +58,22 @@ public class DtoEducacion {
         this.logoE = logoE;
     }
 
+    public String getLogobE() {
+        return logobE;
+    }
+
+    public void setLogobE(String logobE) {
+        this.logobE = logobE;
+    }
+
+    public String getLogocE() {
+        return logocE;
+    }
+
+    public void setLogocE(String logocE) {
+        this.logocE = logocE;
+    }
+
     public String getPeriodoAniosE() {
         return periodoAniosE;
     }
@@ -61,6 +81,5 @@ public class DtoEducacion {
     public void setPeriodoAniosE(String periodoAniosE) {
         this.periodoAniosE = periodoAniosE;
     }
-    
     
 }
