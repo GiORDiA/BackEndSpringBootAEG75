@@ -20,7 +20,7 @@ public class Skills {
     private int percentage;
     private String imgSkill;
     private String imgbSkill;
-    private Long color;
+    private String color;
     
     
     //Constructores
@@ -28,7 +28,7 @@ public class Skills {
     public Skills() {
     }
 
-    public Skills(String nameSkill, Long progress, int percentage, String imgSkill, String imgbSkill, Long color) {
+    public Skills(String nameSkill, Long progress, int percentage, String imgSkill, String imgbSkill, String color) {
         this.nameSkill = nameSkill;
         this.progress = progress;
         this.percentage = percentage;
@@ -87,11 +87,11 @@ public class Skills {
         this.imgbSkill = imgbSkill;
     }
 
-    public Long getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(Long color) {
+    public void setColor(String color) {
         this.color = color;
     }
     

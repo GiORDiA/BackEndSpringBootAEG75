@@ -20,14 +20,14 @@ public class DtoSkills {
     @NotBlank
     private String imgbSkill;
     @NotBlank
-    private Long color;
+    private String color;
     
     //Constructores
 
     public DtoSkills() {
     }
 
-    public DtoSkills(String nameSkill, Long progress, int percentage, String imgSkill, String imgbSkill, Long color) {
+    public DtoSkills(String nameSkill, Long progress, int percentage, String imgSkill, String imgbSkill, String color) {
         this.nameSkill = nameSkill;
         this.progress = progress;
         this.percentage = percentage;
@@ -78,11 +78,11 @@ public class DtoSkills {
         this.imgbSkill = imgbSkill;
     }
 
-    public Long getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(Long color) {
+    public void setColor(String color) {
         this.color = color;
     }
     
