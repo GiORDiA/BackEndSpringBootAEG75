@@ -25,17 +25,14 @@ public class SAbout {
     
     public Optional<About> getOne (int id){
         return rAbout.findById(id);
-    
     }
     
     public Optional<About> getByAbout(String about){
         return rAbout.findByAbout(about);
-    
     }
     
     public void save(About about){
         rAbout.save(about);
-    
     }
     
     public void delete(int id){
