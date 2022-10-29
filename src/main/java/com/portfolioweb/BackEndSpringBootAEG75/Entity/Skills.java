@@ -22,7 +22,6 @@ public class Skills {
     private String imgbSkill;
     private String color;
     
-    
     //Constructores
 
     public Skills() {

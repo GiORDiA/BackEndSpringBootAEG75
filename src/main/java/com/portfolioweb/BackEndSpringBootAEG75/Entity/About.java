@@ -17,6 +17,7 @@ public class About {
     private int id;
     private String about;
     private String imgPerfil;
+    private String imgAuthor;
     private String nombreCompleto;
     private String profesion;
     private String descripcion;
@@ -27,14 +28,14 @@ public class About {
     public About() {
     }
 
-    public About(String about, String imgPerfil, String nombreCompleto, String profesion, String descripcion, String cv) {
+    public About(String about, String imgPerfil, String imgAuthor, String nombreCompleto, String profesion, String descripcion, String cv) {
         this.about = about;
         this.imgPerfil = imgPerfil;
+        this.imgAuthor = imgAuthor;
         this.nombreCompleto = nombreCompleto;
         this.profesion = profesion;
         this.descripcion = descripcion;
         this.cv = cv;
-        
     }
     
     //Getters & Setters
@@ -46,7 +47,7 @@ public class About {
     public void setId(int id) {
         this.id = id;
     }
-    
+
     public String getAbout() {
         return about;
     }
@@ -61,6 +62,14 @@ public class About {
 
     public void setImgPerfil(String imgPerfil) {
         this.imgPerfil = imgPerfil;
+    }
+
+    public String getImgAuthor() {
+        return imgAuthor;
+    }
+
+    public void setImgAuthor(String imgAuthor) {
+        this.imgAuthor = imgAuthor;
     }
 
     public String getNombreCompleto() {
@@ -94,5 +103,5 @@ public class About {
     public void setCv(String cv) {
         this.cv = cv;
     }
-    
+       
 }

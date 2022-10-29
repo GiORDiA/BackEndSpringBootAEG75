@@ -7,7 +7,6 @@ package com.portfolioweb.BackEndSpringBootAEG75.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
 public class DtoSkills {
     @NotBlank
     private String nameSkill;

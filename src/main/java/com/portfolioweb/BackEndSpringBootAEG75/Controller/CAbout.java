@@ -67,7 +67,7 @@ public class CAbout {
             return new ResponseEntity(new Mensaje("Ese About ya existe"), HttpStatus.BAD_REQUEST);
         }
         
-        About about = new About(dtoab.getAbout(), dtoab.getImgPerfil(), dtoab.getNombreCompleto(), dtoab.getProfesion(), dtoab.getDescripcion(), dtoab.getCv());
+        About about = new About(dtoab.getAbout(), dtoab.getImgPerfil(), dtoab.getImgAuthor(), dtoab.getNombreCompleto(), dtoab.getProfesion(), dtoab.getDescripcion(), dtoab.getCv());
         servAbout.save(about);
         return new ResponseEntity(new Mensaje("About Creada"), HttpStatus.OK);
     }
@@ -90,6 +90,7 @@ public class CAbout {
         About about = servAbout.getOne(id).get();
         about.setAbout(dtoab.getAbout());
         about.setImgPerfil(dtoab.getImgPerfil());
+        about.setImgAuthor(dtoab.getImgAuthor());
         about.setNombreCompleto(dtoab.getNombreCompleto());
         about.setProfesion(dtoab.getProfesion());
         about.setDescripcion(dtoab.getDescripcion());

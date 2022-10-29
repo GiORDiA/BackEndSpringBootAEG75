@@ -14,6 +14,8 @@ public class DtoAbout {
     @NotBlank
     private String imgPerfil;
     @NotBlank
+    private String imgAuthor;
+    @NotBlank
     private String nombreCompleto;
     @NotBlank
     private String profesion;
@@ -25,9 +27,10 @@ public class DtoAbout {
     public DtoAbout() {
     }
 
-    public DtoAbout(String about, String imgPerfil, String nombreCompleto, String profesion, String descripcion, String cv) {
+    public DtoAbout(String about, String imgPerfil, String imgAuthor, String nombreCompleto, String profesion, String descripcion, String cv) {
         this.about = about;
         this.imgPerfil = imgPerfil;
+        this.imgAuthor = imgAuthor;
         this.nombreCompleto = nombreCompleto;
         this.profesion = profesion;
         this.descripcion = descripcion;
@@ -50,6 +53,14 @@ public class DtoAbout {
 
     public void setImgPerfil(String imgPerfil) {
         this.imgPerfil = imgPerfil;
+    }
+
+    public String getImgAuthor() {
+        return imgAuthor;
+    }
+
+    public void setImgAuthor(String imgAuthor) {
+        this.imgAuthor = imgAuthor;
     }
 
     public String getNombreCompleto() {
