@@ -26,7 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/about")
-@CrossOrigin(origins = "http://localhost:4200")
+/*@CrossOrigin(origins = "http://localhost:4200")*/
+@CrossOrigin(origins = "https://frontendangularaeg75.web.app")
 public class CAbout {
     @Autowired
     SAbout servAbout;
