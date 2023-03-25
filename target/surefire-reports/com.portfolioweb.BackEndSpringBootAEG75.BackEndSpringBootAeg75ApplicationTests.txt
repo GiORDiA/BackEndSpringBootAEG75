@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.portfolioweb.BackEndSpringBootAEG75.BackEndSpringBootAeg75ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.176 s - in com.portfolioweb.BackEndSpringBootAEG75.BackEndSpringBootAeg75ApplicationTests
