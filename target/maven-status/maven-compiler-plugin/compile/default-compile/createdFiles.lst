@@ -20,7 +20,6 @@ com\portfolioweb\BackEndSpringBootAEG75\Dto\DtoExperiencia.class
 com\portfolioweb\BackEndSpringBootAEG75\Security\Service\UsuarioService.class
 com\portfolioweb\BackEndSpringBootAEG75\Entity\About.class
 com\portfolioweb\BackEndSpringBootAEG75\Controller\PersonaController.class
-com\portfolioweb\BackEndSpringBootAEG75\WebConfig.class
 com\portfolioweb\BackEndSpringBootAEG75\Controller\CProyectos.class
 com\portfolioweb\BackEndSpringBootAEG75\Service\SSkills.class
 com\portfolioweb\BackEndSpringBootAEG75\Dto\DtoAbout.class
